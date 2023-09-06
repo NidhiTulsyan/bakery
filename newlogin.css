@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-color: rgb(201, 139, 98)
+      
+}
+.signup-box{
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    background-color: rgb(226, 182, 155);
+    border-radius: 3px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid crimson;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: brown;
+    color: black;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.login-box{
+    width: 360px;
+    height: 380px;
+    margin: auto;
+    background-color: rgb(226, 182, 155);
+    border-radius: 3px; 
+}
+.header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header{
+    margin-bottom: 2px;
+    padding: 0px 0px;
+    border: 1px solid brown;
+    background-size: cover;
+    
+}
+.menu-header a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 25px;
+    padding: 3px 25px;
+    border: 1px solid brown;
+    background-color: rgb(179, 121, 92);
+}

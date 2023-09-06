@@ -1,0 +1,58 @@
+.header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-header{
+    margin-bottom: 2px;
+    padding: 0px 0px;
+    border: 1px solid brown;
+    background-size: cover;
+    
+}
+.menu-header a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 25px;
+    padding: 3px 25px;
+    border: 1px solid brown;
+    background-color: rgb(179, 121, 92);
+}
+.big{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;    
+}
+
+.box-image{
+    height: 350px;
+    width: 340px;
+    padding: 2px 2px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    
+}
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 340px;
+    font-size: 20px;
+    margin: 5px;
+
+}
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
